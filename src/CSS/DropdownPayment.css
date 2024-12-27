@@ -19,6 +19,7 @@
     gap: 20px;
     font-size: 1em;
     letter-spacing: 1px;
+    color: white;
 }
 
 .select-Payment {
@@ -27,6 +28,7 @@
     height: 40px;
     border-radius: 10px;
     text-align: center;
+    color: white;
 }
 
 .labelPayment {
