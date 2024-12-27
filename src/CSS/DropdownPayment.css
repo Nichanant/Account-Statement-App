@@ -1,0 +1,39 @@
+:root {
+    --colorPrimary: rgb(0, 0, 120);
+    --colorSecondary: beige;
+    --btnDelete: rgb(123, 0, 0);
+    --btnEdit: rgb(255, 200, 0);
+    --fontSizeText: 1.2rem;
+    --fontSizeTag: 1rem;
+    --colorIncome: rgb(0, 121, 61);
+    --colorExpense: rgb(158, 54, 34);
+    --colorDark: rgb(36, 36, 36);
+    --colorLight: grey;
+}
+
+
+.dropdownPayment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.select-Payment {
+    font-size: 1rem;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.labelPayment {
+    font-size: 1rem;
+}
+
+.select-Payment:hover {
+    background-color: var(--colorPrimary);
+
+}

@@ -1,0 +1,76 @@
+:root {
+    --colorPrimary: rgb(0, 0, 120);
+    --colorSecondary: beige;
+    --btnDelete: rgb(123, 0, 0);
+    --btnEdit: rgb(255, 200, 0);
+    --fontSizeText: 0.8rem;
+    --colorIncome: rgb(0, 121, 61);
+    --colorExpense: rgb(158, 54, 34);
+    --colorDark: rgb(36, 36, 36);
+    --colorLight: grey;
+}
+
+* {
+    font-size: var(--fontSizeText);
+}
+
+.headerEx {
+    background-color: var(--colorExpense);
+    color: var(--colorSecondary);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: start;
+    letter-spacing: 1px;
+}
+
+.btn-done {
+    margin: 10px 5px;
+    background-color: var(--colorSecondary);
+    color: black;
+    font-size: var(--fontSizeText);
+    transition: all .2s ease-in-out;
+}
+
+.btn-done:hover {
+    background-color: var(--colorPrimary);
+    color: var(--colorSecondary);
+}
+
+.btn-x {
+    margin: 10px 5px;
+    background-color: var(--colorSecondary);
+    color: black;
+    font-size: var(--fontSizeText);
+    opacity: 0.6;
+    transition: all .2s ease-in-out;
+}
+
+.btn-x:hover {
+    background-color: var(--colorPrimary);
+    color: var(--colorSecondary);
+}
+
+label {
+    margin: 10px 5px;
+    color: var(--colorSecondary);
+    font-size: var(--fontSizeText);
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control input {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.select-category{
+    padding: 2px 0;
+}
+
+.select-payment{
+    padding: 2px 0;
+}
+

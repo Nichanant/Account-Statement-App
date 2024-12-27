@@ -1,0 +1,130 @@
+:root {
+    --colorPrimary: rgb(0, 0, 120);
+    --colorSecondary: beige;
+    --btnDelete: rgb(123, 0, 0);
+    --btnEdit: rgb(255, 200, 0);
+    --fontSizeText: 1.2rem;
+    --fontSizeTag: 1rem;
+    --colorIncome: rgb(0, 121, 61);
+    --colorExpense: rgb(158, 54, 34);
+    --colorDark: rgb(36, 36, 36);
+    --colorLight: grey;
+  }
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--colorSecondary);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 1px;
+}
+
+.infoP {
+    display: flex;
+    text-align: center;
+    justify-content: start;
+}
+
+p {
+    margin: auto 10px;
+}
+
+.groupBtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-Edit {
+    margin: 0;
+    background-color: var(--btnEdit);
+    color: black;
+    opacity: 0.2;
+    transition: all 0.2s ease-in-out;
+}
+.btn-Edit:hover {
+    opacity: 1;
+}
+
+.btn-delete {
+    margin: 0 1px;
+    background-color: var(--btnDelete);
+    opacity: 0.2;
+    transition: all 0.2s ease-in-out;
+}
+.btn-delete:hover {
+    opacity: 1;
+}
+
+.todo {
+    font-size: var(--fontSizeText);
+
+}
+
+.amount {
+    font-size: var(--fontSizeText);
+
+}
+/* ----Category----- */
+.tagCategory {
+    font-size: var(--fontSizeTag);
+}
+
+.food {
+    background-color: rgb(255, 174, 67);
+    color: black;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 0 4px;
+}
+
+.appliance {
+    background-color: rgb(67, 255, 186);
+    color: black;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 0 4px;
+}
+
+.service {
+    background-color: rgb(131, 210, 255);
+    color: black;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 0 4px;
+}
+
+.fare {
+    background-color: rgb(231, 146, 255);
+    color: black;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 0 4px;
+}
+
+.medicalFee {
+    background-color: rgb(254, 238, 157);
+    color: black;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 0 4px;
+}
+
+
+
+/* -----Payment------ */
+.tagPayment {
+    font-size: var(--fontSizeTag);
+    background-color: rgb(76, 76, 76);
+    border-radius: 6px;
+    padding: 0 4px;
+
+}
+
+.emoji{
+    font-size: 1.1em;
+}
+
+.editContainer {
+    background: linear-gradient(180deg, rgb(36, 36, 36), rgb(36, 36, 36), rgb(68, 68, 68));
+}
